@@ -119,17 +119,26 @@
   /* NOSOTROS */
 .header2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image:url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
+  background-image: url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
   color: #1731a6;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-end;
+  flex-direction: row;
+  padding: 50px;
+
 }
 .header2 ul{
+  display: flex;
   list-style: none;
+  justify-content: space-evenly;
+  padding: 10px;
   
 }
 .header2 a{
   text-decoration: none;
+  padding: 10px;
 }
 
  /* main */
@@ -315,6 +324,8 @@ justify-content: center;
 }
 
 
+
+  
   
  
     
