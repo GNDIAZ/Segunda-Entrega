@@ -10,118 +10,11 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-
- 
-   width: 100px; 
+  width: 100px; 
   background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg);
   
 }
-
-/* SERVICIOS */
-.header3 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-image:url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
-  color: #1731a6;
   
-
-}
-
-.header3 ul {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  list-style-type: none; 
-}
-.flex-servicios{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content:space-evenly;
-}
-
-
-
-
-
-
-/* TURNOS */
-.flex-menu3{
-  display: flex;
-
-  justify-content: space-between;
-}
-.turnos{
- background-color: rgb(96, 231, 137);
- font-family: monospace;
- 
-}
-
-.lista4{
- background-color: rgb(250, 11, 11);
-}
-
-.lista4 li{
- color: white;
-}
-.lista4 a{
- color: white;
-}
-.fondo{
-  text-align: center;
-}
-
-/* CONTACTO */
-
-.flex-menu4{
-  display: flex;
- 
-  justify-content: space-between;
-}
-.contacto{
- background-color: rgb(4, 37, 37);
-}
-
-.lista5{
- background-color: rgb(144, 142, 145);
-}
-.lista5 a{
- color: beige;
-}
-
-.fondo img{
-width: 400px;
-}
-
-.encabezado{
-box-shadow: 0px 5px 5px rgb(94, 91, 91);
-}
-
-.inst{
-color: rgb(50, 6, 92);
-}
-.fb{
-color: blue;
-}
-.wpp{
-color: rgb(8, 139, 36);
-}
-
-.footer{
-background-color: aquamarine;
-
-
-}
-.flex-contacto{
-display: flex;
-justify-content: center;
-
-}
-
-  
-  
-
 .header img{
   padding: 0px;
   width: 50px;
@@ -211,9 +104,6 @@ justify-content: center;
   .tw{
     background-color: aqua;
   }
-
- 
-  
   /* NOSOTROS */
 .header2 {
   display: flex;
@@ -243,17 +133,11 @@ justify-content: center;
   justify-items: center;
   padding: 50px;
   background-image:url(https://as2.ftcdn.net/v2/jpg/06/07/61/51/1000_F_607615153_4ldeHzGqQy1cNWSgqdzLvSwxk28gR35N.jpg);
- 
- 
-  
-  
+   
 }
-
 .foto-1 { grid-area: foto-1;
   
-
 }
-
 .foto-2 { grid-area: foto-2; }
 
 .main h2{
@@ -290,6 +174,116 @@ justify-content: center;
   color: beige;
   padding: 2px;
   margin: 2px;
+}
+
+
+/* SERVICIOS */
+.header3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
+  color: #1731a6;
+  
+
+}
+
+.header3 ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style-type: none; 
+}
+.flex-servicios{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-evenly;
+}
+
+/* TURNOS */
+.flex-menu3{
+  display: flex;
+
+  justify-content: space-between;
+}
+.turnos{
+ background-color: rgb(96, 231, 137);
+ font-family: monospace;
+ 
+}
+
+.lista4{
+ background-color: rgb(250, 11, 11);
+}
+
+.lista4 li{
+ color: white;
+}
+.lista4 a{
+ color: white;
+}
+.fondo{
+  text-align: center;
+}
+.fb4{
+  background-color: #1731a6;
+  color: beige;
+}
+.inst4{
+  background-color: blueviolet;
+  color: beige;
+}
+.tw4{
+  background-color: rgb(15, 135, 135);
+  color: beige;
+}
+
+/* CONTACTO */
+
+.flex-menu4{
+  display: flex;
+ 
+  justify-content: space-between;
+}
+.contacto{
+ background-image: url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
+}
+
+.lista5{
+ background-color: rgb(144, 142, 145);
+}
+.lista5 a{
+ color: beige;
+}
+
+.fondo img{
+width: 400px;
+}
+
+.encabezado{
+box-shadow: 0px 5px 5px rgb(94, 91, 91);
+}
+
+.inst5{
+color: rgb(121, 35, 201);
+}
+.fb5{
+color: blue;
+}
+.tw5{
+color: rgb(8, 139, 139);
+}
+
+.footer{
+background-color: aquamarine;
+
+
+}
+.flex-contacto{
+display: flex;
+justify-content: center;
+
 }
 
 
