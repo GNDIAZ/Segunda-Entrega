@@ -1,0 +1,202 @@
+/* Mobile first */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+/* header INICIO */
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+ 
+   width: 100px; 
+  background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg);
+  
+}
+  
+  
+
+.header img{
+  padding: 0px;
+  width: 50px;
+  
+}
+
+.header ul{
+  list-style-type: none;
+  text-transform: uppercase;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+ 
+.header li{
+  padding: 5px;
+}
+
+  
+  
+  .header a {
+    color: #1731a6;
+    text-decoration: none; 
+  align-items: center;}
+  
+    /* main */
+  
+    .main__titulo1{
+      display: flex;
+      background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-degradado_23-2149017048.jpg?w=900&t=st=1689025147~exp=1689025747~hmac=3bce928537cc88ce5b1443299e40c2e2399c44492c476548fb7336718e23ea33);
+      color:rgb(14, 31, 108);
+      justify-content: center;
+      font-family:cursive;
+
+     
+    }
+    .main__titulo2{
+      display: flex;
+      background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-degradado_23-2149017048.jpg?w=900&t=st=1689025147~exp=1689025747~hmac=3bce928537cc88ce5b1443299e40c2e2399c44492c476548fb7336718e23ea33);
+      color:rgb(14, 31, 108);
+      justify-content: center;
+      font-family:cursive;
+    }
+    .servicios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      padding: 20px;
+      background-image: url(https://img.freepik.com/foto-gratis/equipo-medico-profesional-procedimientos-dentales_651396-1693.jpg?w=900&t=st=1689023379~exp=1689023979~hmac=fd804c04c8ec6045c654b39b33ce22b2b41b98d321254c286caee33d6ad40dfb);
+  
+  }
+  .servicios img{
+    width: 300px;
+  }
+  .card-body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color:rgb(14, 31, 108);
+      text-align: center;
+      font-family:Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+  }
+  .bg-body-tertiary{
+      background-color: rgb(221, 38, 139) !important;
+  }
+    
+
+  /* footer */
+
+  .footer{
+    justify-content:space-evenly;
+    padding: 50px;
+    background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg);
+  }
+
+  .fb{
+    background-color: rgb(55, 24, 175);
+    color: white;
+  }
+  .it{
+    background-color: rgb(211, 57, 172);
+  }
+
+  .tw{
+    background-color: aqua;
+  }
+
+ 
+  
+  /* NOSOTROS */
+.header2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image:url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
+  color: #1731a6;
+}
+.header2 ul{
+  list-style: none;
+  
+}
+.header2 a{
+  text-decoration: none;
+}
+/* 
+.main__nosotros{
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  f
+} */
+ /* main */
+
+.main__nosotros{  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "foto-1 foto-2";
+  justify-items: center;
+  padding: 50px;
+  background-image:url(https://as2.ftcdn.net/v2/jpg/06/07/61/51/1000_F_607615153_4ldeHzGqQy1cNWSgqdzLvSwxk28gR35N.jpg);
+ 
+ 
+  
+  
+}
+
+.foto-1 { grid-area: foto-1;
+  
+
+}
+
+.foto-2 { grid-area: foto-2; }
+
+.main h2{
+  color: rgb(33, 3, 86);
+}
+/* FOOTER */
+
+.footer2{
+  background-color: rgb(195, 210, 223);
+}
+
+
+.footer2 div{
+  display: flex;
+  align-items: flex-start;
+  
+  
+}
+
+.fb2{
+  background-color: #1731a6;
+  color:beige;
+  padding: 2px;
+  margin: 2px;
+}
+.inst2{
+  background-color: blueviolet;
+  color: beige;
+  padding: 2px;
+  margin: 2px;
+}
+.tw2{
+  background-color: aqua;
+  color: beige;
+  padding: 2px;
+  margin: 2px;
+}
+
+
+
+  
+ 
+    
+    
