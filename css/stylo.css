@@ -5,18 +5,21 @@
   padding: 0;
 }
 /* header INICIO */
-
 .header {
   display: flex;
-  align-items: center;
-  flex-direction: column;
-  width: 100px; 
-  background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg);
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+ 
   
+  background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg);
+   
 }
   
 .header img{
-  padding: 0px;
+  padding: 5px;
   width: 50px;
   
 }
@@ -29,6 +32,7 @@
   justify-content: space-evenly;
   align-items: center;
   flex-direction: column;
+  
 }
  
 .header li{
@@ -36,15 +40,15 @@
 }
 
   
-  
-  .header a {
+
+.header a {
     color: #1731a6;
     text-decoration: none; 
   align-items: center;}
   
     /* main */
   
-    .main__titulo1{
+.main__titulo1{
       display: flex;
       background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-degradado_23-2149017048.jpg?w=900&t=st=1689025147~exp=1689025747~hmac=3bce928537cc88ce5b1443299e40c2e2399c44492c476548fb7336718e23ea33);
       color:rgb(14, 31, 108);
@@ -53,7 +57,7 @@
 
      
     }
-    .main__titulo2{
+.main__titulo2{
       display: flex;
       background-image: url(https://img.freepik.com/vector-gratis/fondo-monocromatico-blanco-degradado_23-2149017048.jpg?w=900&t=st=1689025147~exp=1689025747~hmac=3bce928537cc88ce5b1443299e40c2e2399c44492c476548fb7336718e23ea33);
       color:rgb(14, 31, 108);
@@ -89,9 +93,17 @@
 
   .footer{
     justify-content:space-evenly;
-    padding: 50px;
-    background-image: url(https://static.vecteezy.com/system/resources/previews/013/227/541/non_2x/background-graphics-with-light-purple-white-black-gradients-use-designs-for-web-pages-apps-mobile-text-backgrounds-screens-wallpapers-decorations-and-art-design-elements-photo.jpg);
+    padding: 20px;
+    background-image: url(https://images.vexels.com/media/users/3/74462/raw/0e995391a53864f6b18a50e2cb4f845a-fondo-de-negocio-de-mensaje-de-rectangulo-azul.jpg) 
   }
+  .header {
+        align-items: flex-start;
+      }
+  .header ul {
+        padding: 50px;
+      }
+    
+    
 
   .fb{
     background-color: rgb(55, 24, 175);
@@ -286,6 +298,21 @@ justify-content: center;
 
 }
 
+@media screen and (min-width: 768px) {
+  .header ul {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header li {
+    padding: 10px;
+  }
+  
+  .servicios img {
+    width: 400px;
+  }
+}
 
 
   
